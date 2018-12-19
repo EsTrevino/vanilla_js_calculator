@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    <title>Javascript Calculator</title>
+</head>
+
+<body>
+    <h1>Vanilla Javascript Calculator</h1>
+    <div id="calc-shell">
+        <div id="display">
+            <div id="display-top">
+                <div>
+                </div>
+                <div>
+                    <p id="math-summary"></p>
+                </div>
+            </div>
+            <div id="display-bottom">
+                <p id="math-display">0</p>
+            </div>
+        </div>
+        <div id="group-1">
+            <div id="row-1">
+            	<button class="btn" id="ac_button" value="clear">AC</button>
+            	<button class="btn operator" value="/">/</button>
+            	<button class="btn operator" value="x">X</button>
+            </div>
+            <div class="group-1-row">
+            	<button class="btn number" value="7">7</button>
+            	<button class="btn number" value="8">8</button>
+            	<button class="btn number" value="9">9</button>
+            	<button class="btn operator" value="-">-</button>
+            </div>
+            <div class="group-1-row">
+            	<button class="btn number" value="4">4</button>
+            	<button class="btn number" value="5">5</button>
+            	<button class="btn number" value="6">6</button>
+            	<button class="btn operator" value="+">+</button>
+            </div>
+        </div>
+        <div id="group-2">
+            <div id="group-2-left">
+                <div id="group-2-left-top">
+                	<button class="btn number" value="1">1</button>
+                	<button class="btn number" value="2">2</button>
+                	<button class="btn number" value="3">3</button>
+                </div>
+                <div id="group-2-left-bottom">
+                	<button class="btn number" value="0">0</button>
+                	<button class="btn number" value=".">.</button>
+                </div>
+            </div>
+            <div id="group-2-right">
+            	<button class="btn" id="equal_button" value="=">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="info-container">
+        <p>Coded by Esteban Trevino</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
